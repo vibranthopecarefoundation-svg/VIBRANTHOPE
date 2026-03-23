@@ -1355,18 +1355,51 @@ a {
     padding: 1rem;
   }
 }
-.cid-vdKFklsHac {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+.cid-veI5rhUyIi {
+  background-color: #f7f7f7;
 }
-.cid-vdKFklsHac .video-wrapper iframe {
+.cid-veI5rhUyIi .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-veI5rhUyIi .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-.cid-vdKFklsHac .mbr-section-title,
-.cid-vdKFklsHac .mbr-section-subtitle,
-.cid-vdKFklsHac .mbr-text {
-  text-align: center;
+@media (max-width: 992px) {
+  .cid-veI5rhUyIi .mbr-figure {
+    margin-top: 1.5rem;
+  }
+}
+.cid-veI5rhUyIi .row {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .cid-veI5rhUyIi .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-veI5rhUyIi .media-content,
+.cid-veI5rhUyIi .mbr-figure {
+  align-self: center;
+}
+.cid-veI5rhUyIi .mbr-figure iframe {
+  width: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.cid-veI5rhUyIi .mbr-figure {
+  border-radius: 0rem;
+  overflow: hidden;
+}
+@media (min-width: 767px) {
+  .cid-veI5rhUyIi .mbr-figure {
+    border-radius: 2rem;
+  }
 }
 .cid-vdKGu4mxhU {
   padding-top: 6rem;
@@ -3219,7 +3252,7 @@ a {
 .cid-vdElzICYtE {
   padding-top: 7rem;
   padding-bottom: 8rem;
-  background-color: #edefeb;
+  background-image: url("../../../assets/images/whatsapp-image-2026-03-15-at-9.34.10-pm.webp");
 }
 .cid-vdElzICYtE .item-wrapper {
   background: #ffffff;
@@ -9457,7 +9490,7 @@ a {
 .cid-vdKYA2jCAx {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #2e481a;
+  background-color: #232323;
 }
 .cid-vdKYA2jCAx .mbr-fallback-image.disabled {
   display: none;
