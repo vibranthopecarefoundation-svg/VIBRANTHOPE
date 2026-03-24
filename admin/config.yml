@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: vibranthopecarefoundation-svg/VIBRANTHOPE
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "assets/images"
+
+collections:
+  - name: "homepage"
+    label: "Home Page Editor"
+    files:
+      - name: "content"
+        label: "Home Content"
+        file: "data/home.json"
+        fields:
+          - {label: "Main YouTube Link", name: "heroVideo", widget: "string", hint: "Paste the YouTube embed URL here"}
+          - {label: "Maternal Care Goal", name: "maternalGoal", widget: "string", hint: "e.g., Provide 1,000 maternal care kits"}
+          - {label: "Support Us Link", name: "supportLink", widget: "string", hint: "Your Donorbox URL"}
