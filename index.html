@@ -316,7 +316,46 @@
             </div>
         </div>
     </div>
-  
+  <script id="donorbox-popup-button-installer" type="text/javascript" defer="" src="https://donorbox.org/install-popup-button.js"></script>
+
+<style>
+  .floating-support-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999; /* Ensures it stays above all other elements */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .floating-support-wrapper:hover {
+    transform: scale(1.08); /* Subtle "fanciful" growth on hover */
+  }
+
+  /* Customizing the look of your specific Donorbox button */
+  #preview_inline_popup_button.custom-sky-blue {
+    background: #00BFFF !important; /* Vivid Sky Blue */
+    color: #ffffff !important;
+    font-weight: bold;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Adds depth */
+    border: none;
+    transition: background 0.3s ease;
+  }
+
+  #preview_inline_popup_button.custom-sky-blue:hover {
+    background: #0099CC !important; /* Slightly darker on hover */
+  }
+</style>
+
+<div class="floating-support-wrapper">
+  <a id="preview_inline_popup_button" 
+     class="dbox-donation-button custom-sky-blue" 
+     href="https://donorbox.org/vibrant-hope-care-foundation-care-wings-maternal-child-health-empowerment-golden-age?" 
+     style="text-decoration: none; font-family: Verdana, sans-serif; display: flex; align-items: center; gap: 8px; width: fit-content; font-size: 16px; border-radius: 50px; line-height: 24px; padding: 12px 28px;">
+     
+     <img role="presentation" src="https://donorbox.org/images/white_logo.svg" style="width: 18px; height: 18px;">
+     Support Us
+  </a>
+</div>
 <input name="cookieData" type="hidden" data-cookie-cookiesAlertType='false' data-cookie-customDialogSelector='null' data-cookie-colorText='#424a4d' data-cookie-colorBg='rgb(255, 255, 255)' data-cookie-opacityOverlay='0' data-cookie-bgOpacity='100' data-cookie-textButton='GOT IT' data-cookie-rejectText='REJECT' data-cookie-colorButton='#ffffff' data-cookie-rejectColor='#ffffff' data-cookie-colorLink='#424a4d' data-cookie-underlineLink='true' data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.">
   </body>
 </html>
